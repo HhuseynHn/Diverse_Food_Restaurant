@@ -1,0 +1,17 @@
+/** @format */
+
+.btn-large {
+  border-radius: 50px;
+  background: #00a890;
+  width: 270px;
+  height: 65px;
+  color: #fff;
+
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 97.182%; /* 23.324px */
+}
+.btn-small {
+}

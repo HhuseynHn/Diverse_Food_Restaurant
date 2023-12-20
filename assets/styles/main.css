@@ -1,0 +1,87 @@
+/** @format */
+
+@import url(../styles/reset.css);
+@import url(../fonts/Lato_fonts.css);
+@import url(../fonts/Opens_Sans_Font.css);
+@import url(../component/button.css);
+@import url(../component/header.css);
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main {
+  /* width: 100%;
+  height: 100vh; */
+}
+.upstairs-background-section {
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+.upstairs-page-background {
+  top: 0px;
+  background-image: url(../images/header_bckgrn_img.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  /* max-width: 90%; */
+  width: 100%;
+  position: absolute;
+  height: 960px;
+  /* height: 100vh; */
+  z-index: -1;
+}
+.upstairs-page-background-opcty {
+  position: absolute;
+  /* background-position: center; */
+  /* max-width: 90%; */
+  width: 100%;
+  /* height: 100vh; */
+  top: 0px;
+  z-index: -1;
+  height: 960px;
+  background-color: black;
+  opacity: 0.6;
+}
+/* ----------- upstairs-page-content-------------- */
+.upstairs-page-content {
+  margin: 0px 5%;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
+.upstairs-page-content h2 {
+  color: #00a890;
+  font-family: Open Sans;
+  font-size: 170px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.upstairs-page-content h3 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.upstairs-page-content h4 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 40%;
+  margin-bottom: 103px;
+}
+.upstairs-page-content button {
+  margin-bottom: 25.3%;
+}
+/*  ------------------------------ ------------------------- */
